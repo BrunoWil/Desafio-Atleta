@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:17
+    container_name: desafioatleta-db-1
+    environment:
+      POSTGRES_USER: Atleta
+      POSTGRES_PASSWORD: Atleta
+      POSTGRES_DB: Atleta_db
+    ports:
+      - "5432:5432"
+

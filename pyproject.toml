@@ -1,0 +1,17 @@
+[project]
+name = "desafio-atleta"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.16.4",
+    "asyncpg>=0.30.0",
+    "fastapi>=0.116.1",
+    "fastapi-pagination>=0.13.3",
+    "psycopg2-binary>=2.9.10",
+    "pydantic-settings>=2.10.1",
+    "requests==2.32.4",
+    "sqlalchemy>=2.0.41",
+    "uvicorn>=0.35.0",
+]
